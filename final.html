@@ -1,0 +1,2159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final</title>
+  <link rel="stylesheet" href="final.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body style="background-color:black;">
+  <!-- Navbar top -->
+  <section class="head">
+    <header>
+      <a href="#" class="headlogo"><img src="flixverse-logo-removebg-preview.png" alt=""></a>
+
+      <nav class="navbar">
+        <a class="active" href="#">Home</a>
+        <a href="#platforms">Platforms</a>
+        <a href="#netflix">Watch Now</a>
+        <a href="#genres">Genre</a>
+        <a href="trending.html">Trending</a>
+      </nav>
+
+      <div style="display: flex;">
+        <div class="headicons">
+          <i class="fas fa-bars" id="menu-bars"></i>
+          <i class="fas fa-search" id="search-icon"></i>
+        </div>
+
+        <div class="New-Profile" onclick="menuToggle()">
+          <div class="new-menu d-active">
+            <h3>
+              Ayush Saxena
+              <div>
+                User
+              </div>
+            </h3>
+            <ul style="padding-inline-start: 0;">
+              <li><a href="#">My Profile</a></li>
+              <li><a href="#">Manage Account</a></li>
+              <li><a href="#">Help & Support</a></li>
+              <li><a href="login.html">Sign In/Sign Up</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <form action="" id="search-form">
+      <input type="search" placeholder="Search here..." name="" id="search-box">
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+  </section>
+
+  
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img src="moneybg.png" class="d-block w-100" alt="..." style="height: 100vh;">
+        <div class="carousel-caption d-none d-md-block" style="text-align: left;">
+          <h1 style="font-size: 72px;">Money-Heist</h1>
+          <p class="abc" style="text-align: left;font-size: 24px;width: 750px;">Set in Madrid, a mysterious man known as the "Professor" recruits a group of eight people, who choose city names as their aliases, to carry out an ambitious plan that involves entering the Royal Mint of Spain, and escaping with €984 million.</p>
+          <a href="moneyheist.html">
+            <button type="button" class="btn btn-light" style="font-size: 24px;"><i class="fa-solid fa-eye" style="color: #050505;"></i> Watch Now</button>
+          </a>
+          
+          <button type="button" class="btn btn-light" style="font-size: 24px;"><i class="fa-regular fa-heart" style="color: #080808;"></i></button>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="endgamecorousal2.png" class="d-block w-100" alt="..." style="height: 100vh;">
+        <div class="carousel-caption d-none d-md-block" style="text-align: left;">
+          <h1 style="font-size: 72px;">Avengers:Endgame</h1>
+          <p class="abc" style="text-align:start;font-size: 24px;width: 750px;">After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.</p>
+          <a href="endgame.html">
+            <button type="button" class="btn btn-light" style="font-size: 24px;"><i class="fa-solid fa-eye" style="color: #050505;"></i> Watch Now</button>
+          </a>
+          
+          <button type="button" class="btn btn-light" style="font-size: 24px;"><i class="fa-regular fa-heart" style="color: #080808;"></i></button>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="tksscorousal.png" class="d-block w-100" alt="..." style="height: 100vh;">
+        <div class="carousel-caption d-none d-md-block" style="text-align: left;">
+          <h1 style="font-size: 72px;">The Kapil Sharma Show</h1>
+          <p class="abc" style="text-align: left;font-size: 24px;width: 750px;">Comedian Kapil Sharma and his eccentric friends and neighbours chat with celebrities across various fields and get them laughing with their wild antics.</p>
+          <a href="tkss.html">
+            <button type="button" class="btn btn-light" style="font-size: 24px;"><i class="fa-solid fa-eye" style="color: #050505;"></i> Watch Now</button>
+          </a>
+          
+          <button type="button" class="btn btn-light" style="font-size: 24px;"><i class="fa-regular fa-heart" style="color: #080808;"></i></button>
+        </div>
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  
+
+  <!-- platforms -->
+  <section class="card-group p-3" id="platforms">
+    <div class="card">
+      <div class="image-wrapper">
+        <img src="netflix.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="card">
+      <div class="image-wrapper">
+        <img src="amazonprime.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="card">
+      <div class="image-wrapper">
+        <img src="jio.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="card">
+      <div class="image-wrapper">
+        <img src="disney+.jpeg" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="card">
+      <div class="image-wrapper">
+        <img src="sony.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </section>
+
+  <!-- netflix -->
+  <section id="netflix">
+    <h1 class="text-center pt-5">NETFLIX</h1>
+  
+    <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-wrapper container-sm d-flex  justify-content-around">
+            <div class="card cardsnet" style="width: 18rem;">
+                <img src="squid.jpeg" class="card-img-top" alt="...">
+                <div class="details">
+                  <h1>Squid Game</h1>
+                  <h2>2021 • 32-63 min</h2>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>8/10</span>
+                  </div>
+                  <div class="tags">
+                    <span class="tag">Thriller</span>
+                  </div>
+                  
+                  <div class="cast">
+                    <h3>Cast</h3>
+                    <ul>
+                      <li><img src="https://s3images.zee5.com/wp-content/uploads/2022/01/fffffffffffsfsdf2022010609470520220106104349.jpg" alt="HoYeon Jung" title="HoYeon Jung"></li>
+                      <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEVMZkEAaRSzyTsnbpQlIbceRxetD3RyO4yZHxLsqZ6msqSxT20NarPudq97TfAcnAYy4&usqp=CAU" alt="Lee Jung-jae" title="Lee Jung-jae"></li>
+                    </ul>
+                  </div>
+                  <div class="knowmore text-center ">
+                    <a href="squidgames.html">
+                    <button class="btn btn-secondary"  style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+                  </a>
+                  </div>
+                </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+                <img src="moneyheist.jpg" class="card-img-top" alt="...">
+                <div class="details">
+                  <h1>Money Heist</h1>
+                  <h2>2017 • 42-76 min</h2>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>8.2/10</span>
+                  </div>
+                  <div class="tags">
+                    <span class="tag">Thriller</span>
+                  </div>
+                  
+                  <div class="cast">
+                    <h3>Cast</h3>
+                    <ul>
+                      <li><img src="https://m.media-amazon.com/images/M/MV5BZGVlMTQyODEtNTlmZS00MTg1LWEwNmYtZmRlNjFmNzg0MDNhXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_FMjpg_UX1000_.jpg" alt="Álvaro Morte" title="Álvaro Morte"></li>
+                      <li><img src="https://m.media-amazon.com/images/M/MV5BMjBkMTc4ODctY2U1NC00NjQzLTliYTItZDM1MTkwNWNmODRjXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg" alt="Úrsula Corberó" title="Úrsula Corberó"></li>
+                    </ul>
+                  </div>
+                  <div class="knowmore text-center ">
+                    <a href="moneyheist.html">
+                    <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+                  </a>
+                  </div>
+                </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="Jersey.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Jersey</h1>
+                <h2>2022 • 2hr 50min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.3/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Sports</span>
+                  <span class="tag">Drama</span>
+                </div>
+                
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDhLNHcy7wKYYd6tB1Ttk-AYyz4xasWYmnVeK3pPX2AUzJjp4VDgGtaoh02Tp4XfQBxLI&usqp=CAU" alt="Mrunal Thakur" title="Mrunal Thakur"></li>
+                    <li><img src="https://www.koimoi.com/wp-content/new-galleries/2023/06/shahid-kapoor-breaks-silence-on-hindi-audience-bollywood-accepting-south-films-but-not-getting-the-same-acceptance-in-return-deets-inside-01.jpg" alt="Shahid Kapoor" title="Shahid Kapoor"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="jersey.html">
+                  <button type="button" class="btn btn-secondary"  autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="haseen-dillruba.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Haseen Dilruba</h1>
+                <h2>2021 • 2hr 16min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>6.9/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Romantic</span>
+                  <span class="tag">Thriller</span>
+                </div>
+                
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQxhrq939RDXHxS2hXmvmiuGCXlYUKJ-hOrQkjEjDzD8OjISiA0F3kUbS2Vxy0iCfw7CvfSkaV-AYlHJeY" alt="Taapsee Pannu" title="Taapsee Pannu"></li>
+                    <li><img src="https://assets.telegraphindia.com/telegraph/9113ff17-793d-42fa-81fb-72bbb3d8bc93.jpg" alt="Vikrant Massey" title="Vikrant Massey"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="haseendilruba.html">
+                  <button type="button" class="btn btn-secondary"  autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+                <img src="naruto.jpg" class="card-img-top" alt="...">
+                <div class="details">
+                  <h1>Naruto</h1>
+                  <h2>1999 • 264hr</h2>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>8.4/10</span>
+                  </div>
+                  <div class="tags">
+                    <span class="tag">Manga</span>
+                  </div>
+                  
+                  <div class="cast">
+                    <h3>Cast</h3>
+                    <ul>
+                      <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvfP_9SV6E5FQEV2Q2aA4FqznoqNxhjyMeNcucLWjr49ZjBRT4vqw064BS6ePh8VQEAN4&s" alt="Maile Flanagan" title="Maile Flanagan"></li>
+                      <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIJfp5rrCr4FnBsEbJhOJpcB-S4wkfkbQ2KJtO23HUKs0uw7jl1Cl3SgY_6bitmsqA6G8&s" alt="Dave Wittenberg" title="Dave Wittenberg"></li>
+                    </ul>
+                  </div>
+                  <div class="knowmore text-center ">
+                    <a href="naruto.html">
+                    <button type="button" class="btn btn-secondary"  autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <div class="card-wrapper container-sm d-flex   justify-content-around">
+            <div class="card cardsnet " style="width: 18rem;">
+              <img src="mission impossible.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Mission:Impossible</h1>
+                <h2>1996 • 1hr 50min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.1/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Action</span>
+                  <span class="tag">Thriller</span>
+                </div>
+                
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://images.mubicdn.net/images/cast_member/2184/cache-2992-1547409411/image-w856.jpg" alt="Tom Cruise" title="Tom Cruise"></li>
+                    <li><img src="https://images.mubicdn.net/images/cast_member/4579/cache-1093-1338813917/image-w856.jpg?size=800x" alt="Emmanuelle Béart" title="Emmanuelle Béart"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="missionimpossible.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="mismatched.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Mismatched</h1>
+                <h2>2020 • 30min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>5.9/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Romantic</span>
+                  <span class="tag">Drama</span>
+                  <span class="tag">Comedy</span>
+                </div>
+                
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2022/01/24080015/prajakta.jpg" alt="Prajakta Koli" title="Prajakta Koli"></li>
+                    <li><img src="https://img.jagrantv.com/article/rc1031884/1654165030-cover--1-.jpg" alt="Rohit Suresh Saraf" title="Rohit Suresh Saraf"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="mismatched.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="elite.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Elite</h1>
+                <h2>2018 • 41-59 min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.3/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Thriller</span>
+                  <span class="tag">Drama</span>
+                </div>
+                
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCpQEQ6-6evTldadBqbfIcG_haf1nHPcyFuQ9sPNmL8VjEPvVGvZVx1Ya_usuTdCfu0r0&s" alt="Ester Exposito" title="Ester Exposito"></li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAhw9NcWasBNq3sjYFQulVLHKQLgBEHGZixH3aETIOadhfQRlFNaa6uw8-vGsGACcoaaRx&s" alt="Itzan Escamilla" title="Itzan Escamilla"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="elite.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="sacred games.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Sacred Games</h1>
+                <h2>2018 • 43-58 min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>8.5/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Thriller</span>
+                </div>
+                
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs7m8ACsijiY5oi6hrh6o8hzLt9VASPtWr5F8tFWXgrFxBNeW96MdZeARtHpWg2pKQpDor&s" alt="Nawazuddin Siddiqui" title="Nawazuddin Siddiqui"></li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnveqTtCynr9yj3EKN8rK5qxh9wROjS8_n51kSnO9krXLtnSnUPB_icIkul1Krr0WRUy8&s" alt="Saif Ali Khan" title="Saif Ali Khan"></li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJiR9qyDspfyl7FnWXjvm8kNf0byBCpoaZgWJNpG0aQQ6aASwgqNYkV1mERjXn-tvO0kc&s" alt="Elnaaz Norouzi" title="Elnaaz Norousi"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="sacredgames.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="stranger things.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Stranger Things</h1>
+                <h2>2016 • </h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>8.7/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Drama</span>
+                </div>
+                
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoH-1BSF-_NSIsu0YGGGCb2HMY8LKRdqzRmIrRrTPDeH7Aejo5pIczurJZdipUF7yf_ElE&s" alt="Millie Bobby Brown" title="Millie Bobby Brown"></li>
+                    <li><img src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcS5SX6-MTzwj2U-Irbw092_0IregGszoiyuLr-8XVHZt7blLZYUVGl32UHTaTSkI9zYevhAyEsleXCd9C92aGkWHYI_PCgJX7bnvrsFxvI" alt="Finn Wolfhard" title="Finn Wolfhard"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="strangerthings.html">
+                  <button type="button" class="btn btn-secondary"autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>    
+  </section>
+
+  <!-- amazon prime -->
+  <section>
+    <h1 class="text-center pt-5">AMAZON PRIME</h1>
+
+    <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="card-wrapper container-sm d-flex  justify-content-around">
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="mirzapur.jpeg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Mirzapur</h1>
+                <h2>2018 • 38-65 min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>8.5/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Thriller</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl8A8pFERHbPdox_CFUbceNZ93zjjkHGfXtHr0M82ANAmVG-I_dOV3b7_PTzNb4VUIEcSv&s" alt="Pankaj Tripathi" title="Pankaj Tripathi">
+                    </li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp0iuoW6cdPjWWd6CyvRRr_ApAHYkQ7RLCOVmOMV12d7FvblVnfxUUIyZvA9AT6DbR4Z9P&s" alt="Divyenndu" title="Divyenndu">
+                    </li>
+                    <li><img src="https://cdn.bollywoodmdb.com/fit-in/celebrities/600x600/photol/27-cele-img/ali-fazal-8.jpg" alt="Ali Fazal"
+                        title="Ali Fazal"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="mirzapur.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="bhoot.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Bhoot Part One:The Haunted Ship</h1>
+                <h2>2020 • 2hr 24min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>5.4/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Thriller</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://images.news18.com/ibnlive/uploads/2022/07/vicky-kaushal-anees-bazmee-16582467404x3.jpg" alt="Vicky Kaushal" title="Vicky Kaushal">
+                    </li>
+                    <li><img src="https://m.economictimes.com/thumb/msid-100018381,width-1200,height-900,resizemode-4,imgsize-33044/bhumi-pednekar.jpg" alt="Bhumi Pednekar" title="Bhumi Pednekar">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="bhoot.html">
+                  <button type="button" class="btn btn-secondary"  autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="panchayat.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Panchayat</h1>
+                <h2>2020 • 20-25 min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>8.9/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Comedy</span>
+                  <span class="tag">Drama</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJaC4F7coZsYLA14GYw7ewD-vFgkMfUaKWEa42G8JUSiWMOeO9rel3i4a-LatIB_FAz2r1&s" alt="Jitendra Kumar" title="Jitendra Kumar">
+                    </li>
+                    <li><img src="https://images.hindustantimes.com/img/2021/07/15/1600x900/raghubir_yadav_1626360821657_1626360943807.JPG" alt="Raghubir Yadav" title="Raghubir Yadav">
+                    </li>
+                    <li><img src="https://images.hindustantimes.com/img/2021/05/21/550x309/c2b61862-ba5f-11eb-8ae8-7a0227212c21_1621620650930.jpeg" alt="Faisal Malik"
+                        title="Faisal Malik"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="panchayat.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="physics.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Physics Wallah</h1>
+                <h2>2022 • 50 min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>8.4/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Biopic</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://images.hindustantimes.com/img/2023/01/20/1600x900/Shreedhar-Dubey-at-1090-crossing-on-his-visit-to-h_1674221974386.jpg" alt="Shreedhar Pandey" title="Shreedhar Pandey">
+                    </li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjMLPij7DLRQn_JE24bk9vaU6c1p6Wh19IrI1XLr4seB6TI_6G42BbTbfj_ONYreJDgOV1&s" alt="Radha Bhatt" title="Radha Bhatt">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="pw.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="comic.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Comicstaan</h1>
+                <h2>2018 • 55-60 min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>6.8/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Comedy</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSpUDbcZW1Q5ui8DCqgq5z9mZoO3Dq2RlSzPFQLsrhUBJEs7tjs" alt="Sumukhi Suresh" title="Sumukhi Suresh">
+                    </li>
+                    <li><img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRhOUGwIj0QDHrCSzHQ3BSAWMEh6ZVJmjIO1z7_Cdf-CWkpUHHyBygA8FJjW5qDG4IDqrRjOWE1vbAT-KE" alt="Abish Mathew" title="Abish Mathew">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="comicstaan.html">
+                  <button type="button" class="btn btn-secondary"  autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="card-wrapper container-sm d-flex   justify-content-around">
+            <div class="card cardsnet " style="width: 18rem;">
+              <img src="farzi.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Farzi</h1>
+                <h2>2023 • 42-66 min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>8.4/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Thriller</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://www.jansatta.com/wp-content/uploads/2023/06/Rashi-Khanna-1.jpg" alt="Raashi Khanna" title="Raashi Khanna">
+                    </li>
+                    <li><img src="https://www.koimoi.com/wp-content/new-galleries/2023/06/shahid-kapoor-breaks-silence-on-hindi-audience-bollywood-accepting-south-films-but-not-getting-the-same-acceptance-in-return-deets-inside-01.jpg" alt="Shahid Kapoor" title="Shahid Kapoor">
+                    </li>
+                    <li><img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSshdG4MNWBpGUBEe9jzqcrg73SsDyj9PReMgDBQVR23j3HZ9b1m7QqZKlyzOvk7aGgIPuPEo-7BZYDxq4" alt="Vijay Sethupathi"
+                        title="Vijay Sethupathi"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="farzi.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="family_man-transformed.jpeg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>The Family Man</h1>
+                <h2>2019 • 1hr 38min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>8.7/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Thriller</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7L8CuMJGB1qVtstNUeGGJCZjpTwVc0G5HmvKosMLPdRfQXY6k" alt="Ashlesha Thakur" title="Ashlesha Thakur">
+                    </li>
+                    <li><img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTSczapUIXFUOks9Lw07zOcAi0-PpW2SZGhKTtvAUH6_jN5ZimcBxw19bPHgYcu7YQBiZ1yeuOzQgERItM" alt="Manoj Bajpayee" title="Manoj Bajpayee">
+                    </li>
+                    <li><img src="https://images.news18.com/ibnlive/uploads/2023/04/samantha-ruth-prabhu-9.jpg" alt="Samantha Ruth Prabhu"
+                        title="Samantha Ruth Prabhu"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="familyman.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="sher.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Shershah</h1>
+                <h2>2021 • 2hr 15min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>8.3/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Action</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://images.ganeshaspeaks.com/GSV7/images/Sidharth-Malhotra.webp" alt="Sidharth Malhotra" title="Sidharth Malhotra">
+                    </li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7kwCKWNbVp8b2lzQnzxFW_H2TLRVpM_rUPWmTAXTqIw0k7EucRqa4P1yLzEKk4bZflUI&s" alt="Kiara Advani" title="Kiara Advani">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="shershah.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="evil dead.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Evil Dead Rise</h1>
+                <h2>2023 • 1hr 36min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>6.6/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Horror</span>
+                  <span class="tag">Fantasy</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://flxt.tmsimg.com/assets/517482_v9_bb.jpg" alt="Alyssa Sutherland" title="Alyssa Sutherland">
+                    </li>
+                    <li><img src="https://www.themoviedb.org/t/p/w500/fVApDiO0yWZZfQeprxDDfAukngO.jpg" alt="Morgan Davies" title="Morgan Davies">
+                    </li>
+                    <li><img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTVlaKvEFnl6P7gGKGByLC1EUGFqAsb6HFP7jrRK643H9HlGgyaqSOJQK0SuildHZq1u22pL1mHdwWmgio" alt="Lily Sullivan"
+                        title="Lily Sullivan"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="evildead.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="flash.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>The Flash</h1>
+                <h2>2023 • 2hr 24min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.1/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Action</span>
+                  <span class="tag">Fantasy</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSx8LFplIG0_8pK10imSarKxBxv3hFllRXL5MQV-HAagetvqDxJ8Bta-sUwUMjY4pdhiLHfmMqg19O13-Q" alt="Ezra Miller" title="Ezra Miller">
+                    </li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQjV8xvcDXkJ8u1ERSsw1P0HXcB6qlZ0BAGLe7FVNVxdOKclPzVkAWHgW8y0hc7M2n3ZQOxEZ3RQPcOaEs" alt="Michael Keaton" title="Michael Keaton">
+                    </li>
+                    <li><img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQvIOUCRCl9caVnixu3qayqIdP2_EAjyeGl5d1sdG_16--CQ1PoPVvLMQDHyP5qrL_y7OprvUqBk5AB1fA" alt="Ben Affleck"
+                        title="Ben Affleck"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="flash.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- jio cinema -->
+  <section>
+  <h1 class="text-center pt-5">JIO CINEMA</h1>
+  <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="card-wrapper container-sm d-flex  justify-content-around">
+          <div class="card cardsnet" style="width: 18rem;">
+              <img src="asurcard.avif" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Asur:Welcome to Your Dark Side</h1>
+                <h2>2020 • 34-66 min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>8.5/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Crime</span>
+                  <span class="tag">Thriller</span>
+                </div>
+                
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202306/for-ridhi-dogra-the-medium-doesnt-really-matter-01-sixteen_nine.jpg?VersionId=uqQTS4ly0gblKAu5evnA4iR0J9vfVliE&size=690:388" alt="Riddhi Dogra" title="Riddhi Dogra"></li>
+                    <li><img src="https://img.indiaforums.com/person/480x360/0/9941-barun-sobti.jpg?c=4kO43E" alt="Barun Sobti" title="Barun Sobti"></li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSadRorkDbzsVR5hHGmD3O6p4DfS8Paps1MFvL8FjFfTQ9oYGbyVxIdUPYN4MpDsSFJ3eGS-w&s" alt="Vishesh Bansal" title="Vishesh Bansal"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="asur.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+                </a>
+                </div>
+              </div>
+          </div>
+          <div class="card cardsnet" style="width: 18rem;">
+            <img src="bigboss.jpg" class="card-img-top" alt="...">
+            <div class="details">
+              <h1>Bigg Boss</h1>
+              <h2>2006 • 60-90 min</h2>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>3.8/10</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Reality</span>
+              </div>
+              
+              <div class="cast">
+                <h3>Cast</h3>
+                <ul>
+                  <li><img src="https://images1.zeebiz.com/images/ZB-EN/900x1600/2023/6/10/1686391335720_Snapinsta.app12160075248438457023074117174658584768199506n1080.jpg" alt="Salman Khan" title="Salman Khan"></li>
+                </ul>
+              </div>
+              <div class="knowmore text-center ">
+                <a href="bigboss.html">
+                <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+              </a>
+              </div>
+            </div>
+        </div>
+         
+          <div class="card cardsnet" style="width: 18rem;">
+            <img src="vikram vedha.jpg" class="card-img-top" alt="...">
+            <div class="details">
+              <h1>Vikram Vedha</h1>
+              <h2>2022 • 2hr 40min</h2>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>7.1/10</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Action</span>
+                <span class="tag">Thriller</span>
+              </div>
+              
+              <div class="cast">
+                <h3>Cast</h3>
+                <ul>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsSc0ueHVWe_QhmNdfZs-aSwgrSdVeGcWSkv-hvHnUk2viwLQLdpPeQ0ZL1g3SlJXFSGA&s" alt="Hritik Roshan" title="Marco Andrews"></li>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnveqTtCynr9yj3EKN8rK5qxh9wROjS8_n51kSnO9krXLtnSnUPB_icIkul1Krr0WRUy8&s" alt="Saif Ali Khan" title="Saif Ali Khan"></li>
+                </ul>
+              </div>
+              <div class="knowmore text-center ">
+                <a href="vikramvedha.html">
+                <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="card cardsnet" style="width: 18rem;">
+            <img src="got.jpg" class="card-img-top" alt="...">
+            <div class="details">
+              <h1>Game of Thrones</h1>
+              <h2>2011 • 50-82 38min</h2>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>9.2/10</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Drama</span>
+              </div>
+              
+              <div class="cast">
+                <h3>Cast</h3>
+                <ul>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7tRfdhV7hV5Mpdt5VxfsnIwHndg3qWKPGxtSrqdi0zcOvZLZfXxy2VD-S_CRamcux8Po&s" alt="Emilia Clarke" title="Emilia Clarke"></li>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAbW3zhZkgZ43R1uS-Kbs1U7yaXbc283vxDs_rJ8rLoB6kpn0nLb97HPBSRVkB6G-cvDRe&s" alt="Pedro Pascal" title="Pedro Pascal"></li>
+                </ul>
+              </div>
+              <div class="knowmore text-center ">
+                <a href="got.html">
+                <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="card cardsnet" style="width: 18rem;">
+              <img src="bhediya.jpeg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Bhediya</h1>
+                <h2>2022 • 2hr 36min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>6.9/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Thriller</span>
+                </div>
+                
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR01nPT3t2-LAWrIjL0GSsTKuxDK_g-C8eij45vB7d4C0LvZLpBX1Pk6VtCLhBUY6yHb0R5fQ&s" alt="Varun Dhawan" title="Varun Dhawan"></li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM-qM_lMGd6ueOYqRqLGq2HdjxU4aDcfXnu0e6EZq3xABN-H2MNtINr39GMeXY9k6BEMT9&s" alt="Kriti Sanon" title="Kriti Sanon"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="bhediya.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+                </a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="card-wrapper container-sm d-flex   justify-content-around">
+          <div class="card cardsnet " style="width: 18rem;">
+            <img src="bloody.webp" class="card-img-top" alt="...">
+            <div class="details">
+              <h1>Bloody Daddy</h1>
+              <h2>2023 • 2hr 1min</h2>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>6.8/10</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Action</span>
+                <span class="tag">Thriller</span>
+              </div>
+              
+              <div class="cast">
+                <h3>Cast</h3>
+                <ul>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb-zSmNNudNS_LAarlrwLJMjaKUWxec9vHjGo74Eplbcs46Y16NL6k3hSbkhTLFbeLE_TT&s" alt="Shahid Kapoor" title="Shahid Kapoor"></li>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyU0oUL6q9J7a8imMMuPZsSuOOT7GK8GD-fUz2YwJGp7PpymX-PiKkKcSlxeYFYBP_X9E&s" alt="Diana Penty" title="Diana Penty"></li>
+                </ul>
+              </div>
+              <div class="knowmore text-center ">
+                <a href="bloodydaddy.html">
+                <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="card cardsnet" style="width: 18rem;">
+            <img src="padmavat.jpeg" class="card-img-top" alt="...">
+            <div class="details">
+              <h1>Padmavat</h1>
+              <h2>2018 • 2hr 44min</h2>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>7/10</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Romance</span>
+                <span class="tag">Drama</span>
+              </div>
+              
+              <div class="cast">
+                <h3>Cast</h3>
+                <ul>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRefdrkxWWbUi3YL2JWasaTNqxjSPf1PZvZqRJeEqaaILU5O1kQmTNo3D6U3mn_8TLa1IA&s" alt="Ranveer Singh" title="Ranvir Singh"></li>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRhJzP8MNVoVGakwgJsix8oxu0O0sHXUAdZgbCR6rP0ZkzImDWpy5N_5mIJuXv34UOajk&s" alt="Deepika Padukone" title="Deepika Padukone"></li>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYfmGh7CWjJ78PfpMQ8NKdpDyAjJ5THkVJawI1Dmu_VrL7nX_Hd6dkEF0FB2UVRji42Oee&s" alt="Shahid Kapoor" title="Shahid Kapoor"></li>
+                </ul>
+              </div>
+              <div class="knowmore text-center ">
+                <a href="padmavat.html">
+                <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="card cardsnet" style="width: 18rem;">
+            <img src="andha.jpg" class="card-img-top" alt="...">
+            <div class="details">
+              <h1>Andhadhun</h1>
+              <h2>2018 • 2hr 18min</h2>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>8.2/10</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Crime</span>
+                <span class="tag">Comedy</span>
+              </div>
+              
+              <div class="cast">
+                <h3>Cast</h3>
+                <ul>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtRpWt63Wi-75UbAncW2gXqeypEMblOd7KThktHKQy3GcfAHU4HHg-MqJOAmqZwIpqhhkf&s" alt="Ayushmann Khurrana" title="Ayushmann Khurrana"></li>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK-Nn619gVzy_ZzfellUDe4LTxXG0m7ICZk7jZJJdbWAs3ALQcjgrY3aimnJ4x7kvnfgg&s" alt="Radhika Apte" title="Radhika Apte"></li>
+                </ul>
+              </div>
+              <div class="knowmore text-center ">
+                <a href="andhadhun.html">
+                <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="card cardsnet" style="width: 18rem;">
+            <img src="shades.jpeg" class="card-img-top" alt="...">
+            <div class="details">
+              <h1>50 Shades of Gray</h1>
+              <h2>2015 • 2hr 5min</h2>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>4.2/10</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Romance</span>
+                <span class="tag">Drama</span>
+              </div>
+              
+              <div class="cast">
+                <h3>Cast</h3>
+                <ul>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt4i6uJR6QL_C_XoOw0W9VZn5AynMMxN-HsH6ZcTeYgdhTCPL-GXLi63YRLDtyykc6Nzw&s" alt="Jamie Dornan" title="Jamie Dornan"></li>
+                  <li><img src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/18/39/1537788636-dakota-johnson.jpg?crop=0.604xw:0.403xh;0.208xw,0.0577xh&resize=1200:*" alt="Dakota Johnson" title="Dakota Johnson"></li>
+                </ul>
+              </div>
+              <div class="knowmore text-center ">
+                <a href="50shades.html">
+                <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="card cardsnet" style="width: 18rem;">
+            <img src="golmaal.jpg" class="card-img-top" alt="...">
+            <div class="details">
+              <h1>Golmaal 3</h1>
+              <h2>2010 • 2hr 35min</h2>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>5.6/10</span>
+              </div>
+              <div class="tags">
+                <span class="tag">Comedy</span>
+              </div>
+              
+              <div class="cast">
+                <h3>Cast</h3>
+                <ul>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvQYPihR5A7eO7jc1wn28dUxxLlpi4NXOuHcvUEQTr6zNhvz1W-zHqX2zVDfxVvhwZjb1-&s" alt="Ajay Devgan" title="Ajay Devgan"></li>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN2sDLtGrwUVYnoA4nGrCkJu7Y6Fw3ebt4Ivbda0wYBfLRVUiVHJX9-4a-A57bNapSivA&s" alt="Tusshar Kapoor" title="Tusshar Kapoor"></li>
+                  <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTblDzu3x6-PP9qtJF7WoRSODT8kr7IQ7fQIBIRSXCyc9ScfWzWI0Z4oR04-d3enr0vApns&s" alt="Arshad Warsi" title="Arshad Warsi"></li>
+                </ul>
+              </div>
+              <div class="knowmore text-center ">
+                <a href="golmaal3.html">
+                <button type="button" class="btn btn-secondary" autocomplete="off" style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know More</button>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+</section>
+
+  <!-- disney plus -->
+  <section>
+    <h1 class="text-center pt-5">DISNEY+</h1>
+
+    <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+
+        <div class="carousel-item active">
+          <div class="card-wrapper container-sm d-flex  justify-content-around">
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="avatar2.jpeg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Avatar 2</h1>
+                <h2>2022 • 3hr 12min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.6/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Action</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQIrxzZdBverCez38GhdHRELGaDFqdw3_MKTB-MqhNMNviyfbpTWB3ZwTprSdwZ22ZgjI9yKZg_erhL1D4" alt="Sam Worthington" title="Sam Worthington">
+                    </li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHwZfEioRR-AlCE7pBd2P2dDMxXKZ-FzevIDkFG5K_GFno2mvJ6FliLV7vnuZBlS6nhyLp&s" alt="Zoe Saldana" title="Zoe Saldana">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="avatar.html">
+                  <button type="button" class="btn btn-secondary"  autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="jolly llb 2.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Jolly LLB 2</h1>
+                <h2>2017 • 2hr 17min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.2/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Legal Drama</span>
+                  <span class="tag">Drama</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://img.mensxp.com/media/content/2022/Nov/Headerthumb_akshay-kumar_636f74d767616.jpeg" alt="Akshay Kumar" title="Akshay Kumar">
+                    </li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBE9Yb3PQ7f84CQe6tnFN75CC64BvGAjsGxWskZhIU6GGhXBwG9rKXmH-Kw-wXThecrLkY&s" alt="Huma Qureshi" title="Huma Qureshi">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="jollyllb2.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="ironman3.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Iron Man 3</h1>
+                <h2>2013 • 2hr 11min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.1/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Action</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWPlE-D9O-zAmcDvv9sFT8MB8SO5ZwisixsH1DbtN6YzwcKDzrrGsp0g3ZJ-g1q5A4lLo&s" alt="Robert Downey Jr." title="Robert Downey Jr.">
+                    </li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLxEku3kR2rphh87EuK5MlW_kv7ugO7eN61DtdqsWB_PHBfaAPBULyGwZqSWAgGnUbfZkt&s" alt="Ben Kingsley" title="Ben Kingsley">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="ironman.html">
+                  <button type="button" class="btn btn-secondary"  autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="freddy.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Freddy</h1>
+                <h2>2022 • 2hr 4min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.4/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Thriller</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://m.economictimes.com/thumb/msid-101576680,width-1200,height-900,resizemode-4,imgsize-58550/kartik-aaryan-shows-off-his-religious-side-.jpg" alt="Kartik Aaryan" title="Kartik Aaryan">
+                    </li>
+                    <li><img src="https://mumbaimirror.indiatimes.com/thumb/73279897.cms?resizemode=4&width=400" alt="Aalia Furniturewalla" title="Aalia Furniturewalla">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="freddy.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="dil.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Dil Bechara</h1>
+                <h2>2020 • 1hr 41min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>8.4/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Romance</span>
+                  <span class="tag">Drama</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy4kipf6Nl6RjitsQkBjwhcY3mVJ6G1ppKKP_5zSL_gS47Y5h7_AFoCLNVas4ft6AiS9s9hA&s" alt="Sushant Singh Rajput" title="Sushant Singh Rajput">
+                    </li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxR-VUkaZAXp3LX1LCyL9-oMfxrwJf1EhhsWBHfI1tRMZk-eR87FLpHLWu1wC1ampZ_FNx&s" alt="Sanjana Sanghi" title="Sanjana Sanghi">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="dil.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="card-wrapper container-sm d-flex   justify-content-around">
+            <div class="card cardsnet " style="width: 18rem;">
+              <img src="sanju.webp" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Sanju</h1>
+                <h2>2018 • 2hr 35min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.6/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Comedy</span>
+                  <span class="tag">Drama</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOI-8_W7NC83vtawayniCJqM2ZhBrWmoiqSZyooKLxVDW5t_S_Hyk3YNMpBYzn_L0kU41r&s" alt="Ranbir Kapoor" title="Ranbir Kapoor">
+                    </li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Okm53wklyWC4yF6HTKX6EZYeZPejdwHU1SBGRmh_TJYZzWlbIL-a583uboM3icu9fUFy&s" alt="Paresh Rawal" title="Paresh Rawal">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="sanju.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="ashes.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Ashes</h1>
+                <h2>2022</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>6.7/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Sports</span>
+                  <span class="tag">Cricket Series</span>
+                </div>
+
+                <div class="knowmore text-center ">
+                  <a href="ashes.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="tanhaji.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Tanhaji</h1>
+                <h2>2020 • 2hr 15min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.5/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Action</span>
+                  <span class="tag">Drama</span>
+                  <span class="tag">Biopic</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://m.media-amazon.com/images/M/MV5BMTUyNjI2NTg3M15BMl5BanBnXkFtZTcwNDEzNDg3OA@@._V1_FMjpg_UX1000_.jpg" alt="Saif Ali Khan" title="Saif Ali Khan">
+                    </li>
+                    <li><img src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2022/3/2022_3$largeimg_1928851129.JPG" alt="Ajay Devgan" title="Ajay Devgan">
+                    </li>
+                    <li><img src="https://cdn.britannica.com/96/244696-050-E23F34B9/Bollywood-actress-Kajol-2022.jpg" alt="Kajol" title="Kajol">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="tanhaji.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="endgame.webp" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Avengers:Endgame</h1>
+                <h2>2019 • 3hr 2min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>8.4/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Action</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://cdn.britannica.com/70/129770-050-AEBE1EB9/Robert-Downey-Jr-2008.jpg" alt="Robert Downey Jr." title="Robert Downey Jr.">
+                    </li>
+                    <li><img src="https://www.goldderby.com/wp-content/uploads/2022/06/Chris-Evans-movies-ranked-1.webp" alt="Chris Evans" title="Chris Evans">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="endgame.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet" style="width: 18rem;">
+              <img src="night.webp" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>The Night Manager</h1>
+                <h2>2023 • 43-63 min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.6/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Spy</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://img.etimg.com/thumb/msid-92570973,width-650,height-488,imgsize-46526,,resizemode-75/aditya-roy-kapur.jpg" alt="Aditya Roy Kapoor" title="Aditya Roy Kapoor">
+                    </li>
+                    <li><img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202306/sobhita_dhulipala-sixteen_nine.jpg?VersionId=fkyVT.A7OSRtuoRBsivDVSiKpRpJTrBg&size=690:388" alt="Sobhita Dhulipala" title="Sobhita Dhulipala">
+                    </li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="night.html">
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="button" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- sony liv -->
+  <section>
+    <h1 class="text-center pt-5">SONY LIV</h1>
+
+    <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-wrapper container-sm d-flex  justify-content-around">
+            <div class="card cardsnet">
+              <img src="kbcposter.webp" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Kaun Banega Crorepati</h1>
+                <h2>2000 • 38-96min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>8.2/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Game Show</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img
+                        src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSra7TVgEoFE0Cu7DhAM3H3oohbUs5xga8tIslsaXCun2mEjKTa"
+                        alt="Amitabh Bachchan" title="Amitabh Bachchan"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="kbc.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet">
+              <img src="scam.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Scam 1992</h1>
+                <h2>2020 • Biography • 42-60 minutes</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>9.3/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Biography</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfKUGWN9_DAkx_qfJW4eRyTmoFAmnofZb4qnJJktRMnw&s"
+                        alt="Pratik Gandhi" title="Pratik Gandhi"></li>
+                    <li><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqIXplkv4e1u2SKfLjWG3XIYYk3J41JOc-Ryf4SB3qKw&s"
+                        alt="Shreya Dhanwanthary" title="Shreya Dhanwanthary"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="Scam1992.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet">
+              <img src="sachin.jpeg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Sachin:A Billion Dreams</h1>
+                <h2>2017 • 2hr 18min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>8.5/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Drama</span>
+                  <span class="tag">Sports</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMfjgZv5KRfOknH-VmYnHtCZd65_Dk-292QyxzIJoszw&s"
+                        alt="Sachin Tendulkar" title="Sachin Tendulkar"></li>
+                    <li><img
+                        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAGAgQFBwEDCAD/xAA6EAABAwMCAgYHBwMFAAAAAAABAgMEAAUREiEGMRMiQVFhgQcUIzJxkaEVM0JSYrHBJILhcnODktH/xAAZAQADAQEBAAAAAAAAAAAAAAABAwQCAAX/xAAgEQADAAICAgMBAAAAAAAAAAAAAQIDERIhBDEUQVEy/9oADAMBAAIRAxEAPwC357yotvlSUJ1KaYWsDvISTXJzbq3Gw6s6lkdZZ7Se2ut3mw8w60dwtBTjvyMVyW0yWpRjOdVTbhQpPcQcU1C6XodswJb0UvJYWprnqx2VrajOrBKG1Y8KtmxloQ2gkJwEgBOKIo9qt8zQp2MjUPypxU3yHvWj0Pgzx3sodUV46fYqA8Emn7VjuLmNEVQ1DbO2a6CTZbahsARkbd6ajJrLLTmENJAB54o1nqUDH4uOn2UJIakQpK2JLZbWPeBFXl6J5vrXCmgKUoMvKA1HOArrYHzoE9KEdvXClaNyClWBuRmif0IA/Y91JBAMlOPDq8qdFcp2yXJCx25RY1JPOlUk86YZEmsVk1iicO0+8M1y3xdDNv4vvUXGA3MXgeB6w/euo9u2qA4+ZVL9I777zSG0F8M5QMa9A2KvHH8Uveg8ORI2GQYdtZdnL0E4wntI+FFlq4vsbSksqfUpzOOqgnFDrtqmykCTAjtPupThKXOz4Cm7ViuUxz+p9m6OQajFJSP1EnBqFafZ6zVJcSzPt+3KjF0unRjnQvP4ytD7io7KJTrw20ttEj6VvtVgQ7wzLiPOrW4rPtM9ZNDieDJjZ/oFSVNucltuN6Vf6sjNHe/Znjx/kdcUREXzhlVxjhxD0D71hwbqRnc+XOpr0NJYTwvJLRHTrlqLoz1hsAM+QrZYbG7bsw5sx6SmQ0pt1LhBAyOQNbfRlbfs+2yD0egqKW1/rUknrfIin476SRLnxdugypJNKpJFUkgmsVmvYrjhyaqr0m2xLF6TLSk4eAe2GwV7ufpnzq1TyqJvHD8e9SI7stx/QyClTSCAHEnmD2jypNra6G4rUVtgLwteG2kIbdPW5VK3PiASUPtwWlONs/elB3Ufyp8aErjbzaL1KhuAp9Ve1Iz+Jknqn5ftW+U3c4DqHbUplUJe5SpGVJzvkb7+ffUbWno9SWqlUTdv41tUWM+04xKZWRhLK0ZKvhXo95mMxDdWYjjEcHC4jigVFP5xjl8O6mcePc5aOkS9CSEnZbjCCpPPJ96mbsG7TZADtyV6q0AS2ltILiu7IHKi5aSCp99BVBvqJ0rLaCorAKcDcnHZU3wyhTdobCm3G1EkkOIKDnxB5UIcOCP9upUpxqPGjnJU4sJTsMAZPjViJIeGtpSXAd9SFZBqjDPWyHyr0+KMVg0ogjmMUk1TsjEmk0o0muOAnj70ls8MTFW23xBMuDYHSFasNs5GQD2qOCDgd/OqjvXHnFV5Wrp7xIbbO4ZiexSkf27/ADJphe5Tt3ukybJWFSJDpWtQGATgDl5UyjslCj0gOeWRyoKf0U6Y7stwfjSXHOkWtat161FRUO3OfKrG4d4giSIyIklYSAeoSeQ/xVZNt6JSV9hBSaeLZW312s7UjLCbLvGy0p6LgbtMF9vW5c1oSTsEqxmm1ymW+zxlqTI6R4e51skmqtbnTSAjplAfGncOK4+6FSFqUaQ417ZWs1V0kSV6kCdwvOSsEpLjayf7x/7QWyHIbuqOpbKxuHGVFBPmKNrojRaJDKfxI/bf+KElo1ITkEkcsVThaaPP8uXNIk4HGvFFt0+p32alKfwuqDo+SwaOeE/TA+5Lbh8UsM9C4rAmsDToJ5FaOWPEcu6qwDWUk5we4iserISoKeO2eQHPyp2iZUzqzY7ggg7gjkRWKrS0elG2wbZDiS7fOLjLSUKc1IIOPOn6/Svw+g4XHuCT3JbSf5rhnJFGl1sclb15MjSdiCO0GnXqwWCpCUkjmkitMmGjTqRscZwO0VoSYD7SuZKe/NPos9hKdMhaVJHIg703sdlfu05EeO8wyleUl+QvS2g42BNM3oL0eS7HdA6Rpam1aTkEg4OD2jas1Krpm4uo7QSx48WWC5GcDgHvafw/Gpq3RkakhCSe+gizyZEGchcbdY5t9ix3VbVjaiz4TU2IOovmDzSe41Dnhx39Hq+JmnJ0/YP3dBTbpjy06UNtkeZ2H70FoI6FRd2CO08h8aPePXEqMG1MAanVF54DuTsPrk+VRUS2JQpSUhJUsDdW6RjnkdtP8adTtkvm0qyaX0QtktRu6H3mrhAgRmCEuPzHdIyc4CQN1HbwHjUbDZUp91Tygro1aAR7uc8xRFceGo2vXGaSgk7IX7iz+k9/gfrUPoXGYSHEFClPkaFDGAKoImLlNhptSid84Ga0PrZac0PEhYG4xUnMbD15jxRuHFJ2+NRM8oXcJSsKV7ZYBx2A0QG1kakuBkaHGkF1CP0j3wPDHWx4GncVtMh6Hpxh0KRjxxWiCstXOA4kAnp0oORsQo6SPkalrFHQ3PLIzojzdKM92cUAojpVvEqztSmUlCkoT6y2nkoEbKx30oxunjtPA9YAoV4KHf8ASpbhvrXFcY7tKawR4ZIrdbY7aV3SOE+zbbS4nwIXo/Y1x2gfvCpD9siKK06IxUlvQkJKc78xzoy4Hnp1x0JUEt3AnKANg4Ac/VKv+47qEZBzZZH+9itkF1caNw84yrSr1sqz/wAiR/FYyTylobhtzkTJ2Yr1rjG5FW6IqUNJ8MJBP1JqRZGEgg4FREFZcut+fVusyTk1LsbISOYIzvRhcZSDke7bH8GGbgxOcMuKw1Gby4h5X3gwezu28d6DL9FaRJVlZUlGCk9jQ54J+mKIJBS3GeldG2p1kEtlac6TQ2+ymROmNPZW1Ga6UNk7OKzzV30UYejNsUJPEDUsIUlttrpRqHZp2NDqS45qWEBWVE5KsZ3ogtUt+XBulwkOFchbCOtjASOQSANgAAABQ817gomGf//Z"
+                        alt="Mayuresh Pem" title="Mayuresh Pem"></li>
+                    <li><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEvROw7g6qCF-Ja017vViSKr4MfXinYeD8UqPAmI4MQ&s"
+                        alt="M.S Dhoni" title="M.S Dhoni"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="sachin.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet">
+              <img src="kapilcard.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>The Kapil Sharma Show</h1>
+                <h2>2016 • 1hr 38min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.3/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Chat Show</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img src="https://starsunfolded.com/wp-content/uploads/2014/11/Kapil-Sharma.jpg"
+                        alt="Kapil Sharma" title="Kapil Sharma"></li>
+                    <li><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrspsIor7WaGQxcGfjT5S2lVOl8_jJKmff7T6eOZRjvQ&s"
+                        alt="Archana Puran Singh" title="Archana Puran Singh"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="tkss.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="card cardsnet">
+              <img src="piku.jpg" class="card-img-top" alt="...">
+              <div class="details">
+                <h1>Piku</h1>
+                <h2>2015 • 2hr 3min</h2>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>7.6/10</span>
+                </div>
+                <div class="tags">
+                  <span class="tag">Drama</span>
+                </div>
+
+                <div class="cast">
+                  <h3>Cast</h3>
+                  <ul>
+                    <li><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-PKVDz2VvSBPYIxZuHfq7o2xbhBmf-9UpvOuH3oShbw&s"
+                        alt="Irfan Khan" title="Irfan Khan"></li>
+                    <li><img src="https://starsunfolded.com/wp-content/uploads/2014/04/Deepika-Padukone-2.jpg"
+                        alt="Deepika Padukone" title="Deepika Padukone"></li>
+                  </ul>
+                </div>
+                <div class="knowmore text-center ">
+                  <a href="piku.html">
+                  <button type="button" class="btn btn-secondary" autocomplete="off"
+                    style="background: transparent;"><i class="fa-regular fa-eye" style="color: #ffffff;"></i> Know
+                    More</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- GENRES -->
+  <section class="genrecards" id="genres">
+    <h1 class="text-center pt-5">GENRE</h1>
+    <div class="team-grid">
+      <div class="container">
+        <div class="row people d-flex justify-content-center">
+          <div class="col-md-3 col-lg-3 genre">
+            <div class="box"
+              style="background-image:url(family.png);background-size: 100%;background-repeat: no-repeat;">
+              <div class="cover">
+                <h1 class="name">Family</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 genre">
+            <div class="box"
+              style="background-image:url(horror.png);background-size: 100%;background-repeat: no-repeat;">
+              <div class="cover">
+                <h1 class="name">Horror</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 genre">
+            <div class="box"
+              style="background-image:url(comedy.png);background-size: 100%;background-repeat: no-repeat;">
+              <div class="cover">
+                <h1 class="name">Comedy</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 genre">
+            <div class="box"
+              style="background-image:url(drama.png);background-size: 100%;background-repeat: no-repeat;">
+              <div class="cover">
+                <h1 class="name">Drama</h1>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row people d-flex justify-content-center">
+          <div class="col-md-3 col-lg-3 genre">
+            <div class="box"
+              style="background-image:url(suspense.png);background-size: 100%;background-repeat: no-repeat;">
+              <div class="cover">
+                <h1 class="name">Suspense</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 genre">
+            <div class="box"
+              style="background-image:url(anime.png);background-size: 100%;background-repeat: no-repeat;">
+              <div class="cover">
+                <h1 class="name">Anime</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 genre">
+            <div class="box"
+              style="background-image:url(romantic.png);background-size: 100%;background-repeat: no-repeat;">
+              <div class="cover">
+                <h1 class="name">Romantic</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 genre">
+            <div class="box"
+              style="background-image:url(thriller.png);background-size: 100%;background-repeat: no-repeat;">
+              <div class="cover">
+                <h1 class="name">Thriller</h1>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row people d-flex justify-content-center">
+          <div class="col-md-3 col-lg-3 genre">
+            <div class="box"
+              style="background-image:url(reality.png);background-size: 100%;background-repeat: no-repeat;">
+              <div class="cover">
+                <h1 class="name">Reality</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 genre">
+            <div class="box"
+              style="background-image:url(biopic.png);background-size: 100%;background-repeat: no-repeat;">
+              <div class="cover">
+                <h1 class="name">Biopic</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 genre">
+            <div class="box"
+              style="background-image:url(sports.png);background-size: 100%;background-repeat: no-repeat;">
+              <div class="cover">
+                <h1 class="name">Sports</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3 genre">
+            <div class="box"
+              style="background-image:url(mystery.png);background-size: 100%;background-repeat: no-repeat;">
+              <div class="cover">
+                <h1 class="name">Mystery</h1>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials -->
+  <section class="testimonials">
+    <div class="outer">
+      <h1>OUR TRUSTED CUSTOMERS</h1>
+      <div class="border"></div>
+
+      <div class="row rowtest">
+        <div class="col coltest">
+          <div class="testimonial">
+            <img src="cust.jpg" alt="">
+            <div class="name">Mohit</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>
+              I've been using this platform for a few months now and I really like it! The user interface is clean and
+              intuitive, made easy by its huge library of movies and TV shows. The platform also has a good selection of
+              content of all genres. Overall it was a great experience.
+            </p>
+          </div>
+        </div>
+        <div class="col coltest">
+          <div class="testimonial">
+            <img src="cusstomer2.jpg" alt="">
+            <div class="name">Sia</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>
+              This platform has completely transformed my entertainment experience. With a wide range of movies, TV
+              series, and even exclusive originals, I'm never short of content to watch. I highly recommend this
+              platform to anyone looking for a top-notch streaming service.
+            </p>
+          </div>
+        </div>
+
+        <div class="col coltest">
+          <div class="testimonial">
+            <img src="customer3.jpg" alt="">
+            <div class="name">Gabriel</div>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>
+              As a movie buff, the platform offers an extensive collection of classic movies, independent films, and
+              foreign cinema that I struggle to find elsewhere. The user interface is sleek and organized, making it
+              easy to discover hidden gems.Overall it's a best website for OTT knowledge.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+
+  <div class="container-fluid foott">
+    <footer class="text-center text-white">
+      <div class="container">
+
+        <section class="mt-0">
+          <div class="row text-center d-flex justify-content-center pt-4">
+            <div class="col-md-2 quicky">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#" class="text-white">Home</a>
+              </h6>
+            </div>
+            <div class="col-md-2 quicky">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#platforms" class="text-white">Platforms</a>
+              </h6>
+            </div>
+            <div class="col-md-2 quicky">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#genres" class="text-white">Genre</a>
+              </h6>
+            </div>
+            <div class="col-md-2 quicky">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white">Trending</a>
+              </h6>
+            </div>
+            <div class="col-md-2 quicky">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white">Help</a>
+              </h6>
+            </div>
+          </div>
+        </section>
+
+        <hr class="my-4" />
+
+        <!-- Section: Text -->
+
+        <div class="container">
+          <section class="mb-4">
+            <div class="row">
+              <div class="col-sm-4">
+                <img class="logo_black" src="FlixVerse logo black.png" style="height: 10vh; width: 60%;" alt="">
+                <p>
+                  Flix-Verse is an innovative and captivating streaming platform that transports viewers into a realm
+                  where imagination knows no bounds. In this interconnected streaming universe, every show and movie
+                  exists within a shared multiverse. It revolutionizes the way of consuming the entertainment.
+                </p>
+              </div>
+              <div class="col-sm-4">
+                <h4 class="text-uppercase">
+                  <a href="#!" class="text-white">company</a>
+                </h4>
+                <div style="line-height: 1.5rem; font-weight: normal">
+                  <a href="aboutus.html" class="text-white" style="text-decoration: none;">About Us</a>
+                  <br>
+                  <a href="our-team.html" class="text-white" style="text-decoration: none;">Our Team</a>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <h4 class="text-uppercase">
+                  <a href="#!" class="text-white">Feedback</a>
+                </h4>
+                <div class="feedback">
+                  <input type="radio" name="reaction" id="one">
+                  <input type="radio" name="reaction" id="two">
+                  <input type="radio" name="reaction" id="three">
+                  <input type="radio" name="reaction" id="four">
+                  <input type="radio" name="reaction" id="five">
+
+                  <label for="one">
+                    <img class="smile" src="pouting.png" alt="">
+                  </label>
+                  <label for="two">
+                    <img class="smile" src="steam.png" alt="">
+                  </label>
+                  <label for="three">
+                    <img class="smile" src="diagonal-mouth.png" alt="">
+                  </label>
+                  <label for="four">
+                    <img class="smile" src="smiling.png" alt="">
+                  </label>
+                  <label for="five">
+                    <img class="smile" src="grinning.png" alt="">
+                  </label>
+                </div>
+                <h4 class="text-uppercase">
+                  <a href="#!" class="text-white">social</a>
+                </h4>
+                <div class="container">
+                  <div class="handles">
+                    <span class="background">
+                      <span class="social-media-buttons">
+                        <span class="social-media-button"><img alt="Instagram" src="instagram.svg" /></span>
+                        <span class="social-media-button"><img alt="Twitter" src="twitter.svg" /></span>
+                        <span class="social-media-button"><img alt="Youtube" src="youtube.svg" /></span>
+                        <span class="social-media-button"><img alt="LinkedIn" src="linkedin.svg" /></span>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+          </section>
+        </div>
+        <!-- Section: Text -->
+        <hr class="my-4" />
+      </div>
+
+      <section>
+        <div class="text-center pb-4 ">
+          © 2023 Copyright:
+          <a class="text-white" href="">flixverse.com</a>
+        </div>
+      </section>
+    </footer>
+  </div>
+
+  <script>
+    function record() {
+      var recognition = new webkitSpeechRecognition();
+      recognition.lang = "en-GB";
+
+      recognition.onresult = function (event) {
+
+        document.getElementById('speechToText').value = event.results[0][0].transcript;
+      }
+      recognition.start();
+    }
+  </script>
+  <script src="final.js"></script>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
